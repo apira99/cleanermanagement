@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Book"
+    android:background="@drawable/ebg">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/arrow_back" />
+
+    <Button
+        android:id="@+id/btnAddCleaner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Add Cleaner"
+        android:textSize="24sp"
+        android:background="@drawable/btn"/>
+
+
+    <Button
+        android:id="@+id/btnUpdateCleaner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Update Cleaner"
+        android:textSize="24sp"
+        android:background="@drawable/btn"/>
+
+    <Button
+        android:id="@+id/btnAddlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Add cleaner location"
+        android:textSize="24sp"
+        android:background="@drawable/btn"/>
+
+
+
+
+</LinearLayout>
